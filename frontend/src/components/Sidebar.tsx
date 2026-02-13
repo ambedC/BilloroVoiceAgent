@@ -55,7 +55,8 @@ const Sidebar = () => {
                 flexDirection: "column",
                 alignItems: "center",
                 py: 4,
-                gap: 2
+                gap: 2,
+                position:"fixed"
             }}
         >
             <img src={logo} alt="Billoro"/>
