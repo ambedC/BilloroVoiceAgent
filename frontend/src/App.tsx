@@ -1,13 +1,15 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
+import { Layout } from './components/Layout'
+import Dashboard from './pages/Dashboard'
 
 function App() {
 
   return (
     <div>
       {/* <Sidebar/> */}
-      <Navbar/>
+      <Layout>
+        <Dashboard/>
+      </Layout>
     </div>
   )
 }
