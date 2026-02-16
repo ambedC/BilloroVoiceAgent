@@ -14,7 +14,7 @@ const Navbar: React.FC<NavbarProps> = ({pageTitle, showBack = false, onBackClick
     return (
         <Box
             sx={{
-                position: "sticky",
+                position: "relative",
                 top: 0,
                 zIndex: 1100,
                 backgroundColor: "transparent",
